@@ -79,10 +79,12 @@ Load the CSV (two common options):
 
 ## Reproduce End‑to‑End
 
+```bash
 # 1) Run scraper notebook → writes CSV in ./data
 # 2) Create DB + raw table (see DDL above)
 # 3) Load CSV into jobs_raw (LOAD DATA or pandas.to_sql)
 # 4) Run data_cleanning.sql to build curated views/tables
 # 5) Run SQLQuery.sql for analytics sanity checks
 # 6) Open powerbi/Australian_Job_Market.pbix (or build new) and point to jobs_clean
+```
 
