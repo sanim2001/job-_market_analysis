@@ -43,11 +43,11 @@ Analyze Australian job market demand by title, location, salary, and skill sets 
 - Power BI Desktop (Windows) or Power BI Service (for publishing)
 
 
+---
+## Step 1 — Scrape LinkedIn → CSV
 
-## 🐍 Step 1 — Scrape LinkedIn → CSV
 
-
-## 🗄️ Step 2 — Load CSV → MySQL
+##  Step 2 — Load CSV → MySQL
 
 Example schema for a raw table:
 
@@ -55,25 +55,11 @@ Load the CSV (two common options):
 
 **A) MySQL `LOAD DATA`**
 
-
 **B) Python (pandas + SQLAlchemy)**
 
-
 ## Step 3 — Data Cleaning (SQL)
-
-
-## 🔍 Step 4 — Analysis (SQL)
-
-
-## 📊 Step 5 — Power BI Dashboard
-
-
-
-## 🔐 Ethics & Compliance
-
-- Respect robots and ToS; scrape slowly, don’t bypass access controls.
-- Do not collect or store personal data (PII). Limit to listing‑level fields.
-- Document data collection dates and search parameters for reproducibility.
+## Step 4 — Analysis (SQL)
+## Step 5 — Power BI Dashboard
 
 ---
 
